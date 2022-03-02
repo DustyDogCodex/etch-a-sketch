@@ -5,4 +5,4 @@ This project will be a website where you can use your mouse to interact with an 
 
 Through this project I learned:
 
-
+(to be updated as project progresses)
