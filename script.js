@@ -1,17 +1,14 @@
-let colorSelection = '';
-let backgroundValue = "rgb(0,0,0)";
+/* let colorSelection = '';
+let backgroundValue = "rgb(0,0,0)"; */
 
 const ten = document.querySelector('.ten');
 ten.addEventListener('click', () => {gridSize(10*10)});
-console.log(ten);
 
 const twenty = document.querySelector('.twenty');
 twenty.addEventListener('click', () => {gridSize(20*20)});
-console.log(twenty);
 
 const forty = document.querySelector('.forty');
 forty.addEventListener('click', () => {gridSize(40*40)});
-console.log(forty);
 
 const reset = document.querySelector('.clear');
 reset.addEventListener('click', () => {clear()});
@@ -85,6 +82,8 @@ function clear() {
     const container = document.querySelector('.container');
     container.innerHTML = '';
 }
+
+// functions for future rainbow colors features!
 
 /* function randomColor(){
     const squares = document.querySelectorAll('.newDiv');
