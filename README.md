@@ -5,4 +5,8 @@ This project will be a website where you can use your mouse to interact with an 
 
 Through this project I learned:
 
-(to be updated as project progresses)
+1) Creating a project using HTML, CSS and Javascript from scratch
+2) Working with event listeners to create a dynamic website
+3) Manipulating the DOM to allow the user to interact with the website
+4) Creating new elements using .createElement and appending them onto the website as directed by user
+5) Creating functions that allow DOM manipulation as needed
