@@ -1,25 +1,27 @@
-/* content box not changing the wya divs overflow from container div. Need to relook at height and width numbers and find a way to prevent overflow! */
-
-/* .container {
-    box-sizing: border-box; 
-} */
-
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: radial-gradient(#5680E9,#84CEEB,#5AB9EA);
+    background-repeat: none;
+    color: #FAED26;
 }
 
 h1 {
-    border: 2px solid;
+    
     margin-bottom: 0;
+    padding: 2%;
     align-items: center;
 }
 
 p {
-    border: 2px solid;
+    font-size: 20px;
+    padding: 2%;
+}
+
+button {
+    padding: 1%;
 }
 
 .top {
@@ -28,14 +30,17 @@ p {
 }
 
 .gridButtons {
-    border: 2px solid;
+    
+    padding: 4%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .container {
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    height: 960px;
-    width: 960px;
-    background: #F08080;
+    height: 600px;
+    width: 600px;
+    background: #8860d0;
 }
